@@ -1,0 +1,11 @@
+{
+  "/(setup)/page": "app/(setup)/page.js",
+  "/(invite)/(routes)/invite/[inviteCode]/page": "app/(invite)/(routes)/invite/[inviteCode]/page.js",
+  "/api/uploadthing/route": "app/api/uploadthing/route.js",
+  "/api/messages/route": "app/api/messages/route.js",
+  "/api/direct-messages/route": "app/api/direct-messages/route.js",
+  "/(auth)/(routes)/sign-in/[[...sign-in]]/page": "app/(auth)/(routes)/sign-in/[[...sign-in]]/page.js",
+  "/(main)/(routes)/servers/[serverId]/page": "app/(main)/(routes)/servers/[serverId]/page.js",
+  "/(main)/(routes)/servers/[serverId]/channels/[channelId]/page": "app/(main)/(routes)/servers/[serverId]/channels/[channelId]/page.js",
+  "/(main)/(routes)/servers/[serverId]/conversations/[memberId]/page": "app/(main)/(routes)/servers/[serverId]/conversations/[memberId]/page.js"
+}
